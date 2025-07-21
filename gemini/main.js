@@ -4,8 +4,8 @@ import cors from "cors";
 const app = express();
 const PORT = 6969;
 
-// const API_KEY = "AIzaSyB4yYqZgwE3vtcK0h8E6tUUK-qtV3iGmXk";
-const genAI = new GoogleGenerativeAI("AIzaSyB4yYqZgwE3vtcK0h8E6tUUK-qtV3iGmXk");
+
+const genAI = new GoogleGenerativeAI("YOUR_API_KEY_HERE");
 app.use(express.json());
 app.use(cors())
 
